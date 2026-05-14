@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UPL-ICE Witness",
+  "type": "object",
+  "required": ["witness_id", "created_at_utc", "payload"],
+  "properties": {
+    "witness_id": { "type": "string" },
+    "created_at_utc": { "type": "string" },
+    "payload": { "type": "object" },
+    "content_hash": { "type": "string" }
+  },
+  "additionalProperties": true
+}

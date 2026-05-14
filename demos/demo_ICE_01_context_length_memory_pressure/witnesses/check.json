@@ -1,0 +1,72 @@
+{
+  "content_hash": "e71e1e832ef3913672621ce78452839a36509d9ab7871874d808e4a692f47a0d",
+  "created_at_utc": "2026-05-14T08:26:11+00:00",
+  "payload": {
+    "control_lengths_evaluation": [
+      {
+        "aborted_repetitions": 0,
+        "group": "control",
+        "holds_condition_c": false,
+        "length": 256,
+        "median_peak_memory_delta_bytes": 262349.0,
+        "relative_spread": 0.0,
+        "successful_repetitions": 3
+      },
+      {
+        "aborted_repetitions": 0,
+        "group": "control",
+        "holds_condition_c": false,
+        "length": 512,
+        "median_peak_memory_delta_bytes": 1048781.0,
+        "relative_spread": 0.0,
+        "successful_repetitions": 3
+      },
+      {
+        "aborted_repetitions": 0,
+        "group": "control",
+        "holds_condition_c": false,
+        "length": 768,
+        "median_peak_memory_delta_bytes": 2359533.0,
+        "relative_spread": 0.0,
+        "successful_repetitions": 3
+      }
+    ],
+    "controls_satisfy_c": false,
+    "repetition_consistency": {
+      "control_relative_spread": 0.7069935930003212,
+      "too_noisy": false
+    },
+    "test_lengths_evaluation": [
+      {
+        "aborted_repetitions": 0,
+        "group": "test",
+        "holds_condition_c": false,
+        "length": 2048,
+        "median_peak_memory_delta_bytes": 16777453.0,
+        "relative_spread": 0.0,
+        "successful_repetitions": 3
+      },
+      {
+        "aborted_repetitions": 0,
+        "group": "test",
+        "holds_condition_c": true,
+        "length": 4096,
+        "median_peak_memory_delta_bytes": 67109101.0,
+        "relative_spread": 0.0,
+        "successful_repetitions": 3
+      }
+    ],
+    "tests_satisfying_c": [
+      {
+        "aborted_repetitions": 0,
+        "group": "test",
+        "holds_condition_c": true,
+        "length": 4096,
+        "median_peak_memory_delta_bytes": 67109101.0,
+        "relative_spread": 0.0,
+        "successful_repetitions": 3
+      }
+    ]
+  },
+  "witness_id": "W_check"
+}

@@ -1,0 +1,20 @@
+{
+  "boundary_id": "B_demo_ICE_01",
+  "machine_id": "local-anonymized",
+  "python_version": "auto",
+  "runtime": "python-stdlib",
+  "execution_device": "CPU",
+  "model_object": "synthetic_attention_like_workload",
+  "dtype": "float32_simulated",
+  "bytes_per_score": 4,
+  "batch_size": 1,
+  "embedding_dim": 64,
+  "input_lengths_control": [256, 512, 768],
+  "input_lengths_test": [2048, 4096],
+  "repetitions": 3,
+  "warmup_runs": 1,
+  "concurrent_workloads": "forbidden",
+  "network_access": "not_required",
+  "measurement_method": "tracemalloc_and_optional_rusage",
+  "abort_limit_bytes": 536870912
+}

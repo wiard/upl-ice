@@ -1,0 +1,20 @@
+{
+  "all_test_aborted": false,
+  "claim_id": "K_context_length_memory_pressure",
+  "control_lengths": [
+    256,
+    512,
+    768
+  ],
+  "control_median_peak_memory_delta_bytes": 1048781.0,
+  "controls_satisfy_c": false,
+  "status": "checked",
+  "test_lengths": [
+    2048,
+    4096
+  ],
+  "tests_satisfying_c": [
+    4096
+  ],
+  "too_noisy": false
+}

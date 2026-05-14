@@ -1,0 +1,16 @@
+{
+  "content_hash": "7d439df3bef5649b22d4a5ce51c937bb917fee6f9fb493bc7385db597e12cc12",
+  "created_at_utc": "2026-05-14T08:26:11+00:00",
+  "payload": {
+    "boundary_unchanged": true,
+    "no_external_workload": true,
+    "no_network": true,
+    "same_device_class": true,
+    "same_dtype_simulation": true,
+    "same_measurement_method": true,
+    "same_runtime": true,
+    "same_workload_function": true,
+    "thresholds_predeclared": true
+  },
+  "witness_id": "W_ruleout"
+}

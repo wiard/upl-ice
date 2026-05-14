@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UPL-ICE Boundary",
+  "type": "object",
+  "required": [
+    "boundary_id",
+    "runtime",
+    "execution_device",
+    "model_object",
+    "input_lengths_control",
+    "input_lengths_test",
+    "repetitions",
+    "measurement_method",
+    "abort_limit_bytes"
+  ],
+  "properties": {
+    "boundary_id": { "type": "string" },
+    "machine_id": { "type": "string" },
+    "python_version": { "type": "string" },
+    "runtime": { "type": "string" },
+    "execution_device": { "type": "string" },
+    "model_object": { "type": "string" },
+    "dtype": { "type": "string" },
+    "bytes_per_score": { "type": "integer", "minimum": 1 },
+    "batch_size": { "type": "integer", "minimum": 1 },
+    "embedding_dim": { "type": "integer", "minimum": 1 },
+    "input_lengths_control": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 1 }
+    },
+    "input_lengths_test": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 1 }
+    },
+    "repetitions": { "type": "integer", "minimum": 1 },
+    "warmup_runs": { "type": "integer", "minimum": 0 },
+    "concurrent_workloads": { "type": "string" },
+    "network_access": { "type": "string" },
+    "measurement_method": { "type": "string" },
+    "abort_limit_bytes": { "type": "integer", "minimum": 1 }
+  },
+  "additionalProperties": true
+}

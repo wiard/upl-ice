@@ -1,0 +1,24 @@
+demo_ICE_01 start
+warmup group=control length=256
+measure group=control length=256 repetition=1
+measure group=control length=256 repetition=2
+measure group=control length=256 repetition=3
+warmup group=control length=512
+measure group=control length=512 repetition=1
+measure group=control length=512 repetition=2
+measure group=control length=512 repetition=3
+warmup group=control length=768
+measure group=control length=768 repetition=1
+measure group=control length=768 repetition=2
+measure group=control length=768 repetition=3
+warmup group=test length=2048
+measure group=test length=2048 repetition=1
+measure group=test length=2048 repetition=2
+measure group=test length=2048 repetition=3
+warmup group=test length=4096
+measure group=test length=4096 repetition=1
+measure group=test length=4096 repetition=2
+measure group=test length=4096 repetition=3
+status=checked
+control_median_peak_memory_delta_bytes=1048781.0
+tests_satisfying_c=[4096]

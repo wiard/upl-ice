@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UPL-ICE Judgment",
+  "type": "object",
+  "required": [
+    "upl_namespace",
+    "profile",
+    "claim_id",
+    "claim",
+    "boundary_id",
+    "judgment_form",
+    "witnesses",
+    "status"
+  ],
+  "properties": {
+    "upl_namespace": { "type": "string" },
+    "profile": { "type": "string" },
+    "claim_id": { "type": "string" },
+    "claim": { "type": "string" },
+    "boundary_id": { "type": "string" },
+    "judgment_form": { "type": "string" },
+    "witnesses": { "type": "object" },
+    "status": {
+      "type": "string",
+      "enum": ["checked", "failed", "inconclusive", "incomplete", "out_of_scope"]
+    },
+    "allowed_claims": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "forbidden_claims": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": true
+}

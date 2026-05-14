@@ -1,0 +1,183 @@
+{
+  "content_hash": "06ffbb442b229afcd2380f47cdb9495c0e34b5c78daa2852224964f36b550091",
+  "created_at_utc": "2026-05-14T08:26:11+00:00",
+  "payload": {
+    "abort_limit_bytes": 536870912,
+    "control_median_peak_memory_delta_bytes": 1048781.0,
+    "control_relative_spread": 0.7069935930003212,
+    "measurements": [
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 262144,
+        "group": "control",
+        "latency_ms": 0.012917,
+        "length": 256,
+        "peak_memory_delta_bytes": 262349,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 1
+      },
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 262144,
+        "group": "control",
+        "latency_ms": 0.012167,
+        "length": 256,
+        "peak_memory_delta_bytes": 262349,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 2
+      },
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 262144,
+        "group": "control",
+        "latency_ms": 0.012,
+        "length": 256,
+        "peak_memory_delta_bytes": 262349,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 3
+      },
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 1048576,
+        "group": "control",
+        "latency_ms": 0.044084,
+        "length": 512,
+        "peak_memory_delta_bytes": 1048781,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 1
+      },
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 1048576,
+        "group": "control",
+        "latency_ms": 0.044875,
+        "length": 512,
+        "peak_memory_delta_bytes": 1048781,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 2
+      },
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 1048576,
+        "group": "control",
+        "latency_ms": 0.04375,
+        "length": 512,
+        "peak_memory_delta_bytes": 1048781,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 3
+      },
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 2359296,
+        "group": "control",
+        "latency_ms": 0.207834,
+        "length": 768,
+        "peak_memory_delta_bytes": 2359533,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 1
+      },
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 2359296,
+        "group": "control",
+        "latency_ms": 0.211417,
+        "length": 768,
+        "peak_memory_delta_bytes": 2359533,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 2
+      },
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 2359296,
+        "group": "control",
+        "latency_ms": 0.207083,
+        "length": 768,
+        "peak_memory_delta_bytes": 2359533,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 3
+      },
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 16777216,
+        "group": "test",
+        "latency_ms": 1.382417,
+        "length": 2048,
+        "peak_memory_delta_bytes": 16777453,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 1
+      },
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 16777216,
+        "group": "test",
+        "latency_ms": 1.403667,
+        "length": 2048,
+        "peak_memory_delta_bytes": 16777453,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 2
+      },
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 16777216,
+        "group": "test",
+        "latency_ms": 1.529791,
+        "length": 2048,
+        "peak_memory_delta_bytes": 16777453,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 3
+      },
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 67108864,
+        "group": "test",
+        "latency_ms": 9.728542,
+        "length": 4096,
+        "peak_memory_delta_bytes": 67109101,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 1
+      },
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 67108864,
+        "group": "test",
+        "latency_ms": 9.405667,
+        "length": 4096,
+        "peak_memory_delta_bytes": 67109101,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 2
+      },
+      {
+        "abort_reason": null,
+        "aborted": false,
+        "allocation_bytes": 67108864,
+        "group": "test",
+        "latency_ms": 9.201708,
+        "length": 4096,
+        "peak_memory_delta_bytes": 67109101,
+        "peak_rss_delta_bytes": 0,
+        "repetition": 3
+      }
+    ],
+    "runtime_metadata": {
+      "execution_device": "CPU",
+      "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+      "python_version": "3.13.5 (main, Jun 11 2025, 15:36:57) [Clang 17.0.0 (clang-1700.0.13.3)]",
+      "runtime": "python-stdlib"
+    }
+  },
+  "witness_id": "W_exec"
+}

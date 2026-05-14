@@ -1,0 +1,98 @@
+{
+  "content_hash": "9954d99b384f8bb549584ea153cf00af22e1ca791a51023414c7a9700d4ac790",
+  "created_at_utc": "2026-05-14T08:26:11+00:00",
+  "payload": {
+    "batch_size": 1,
+    "bytes_per_score": 4,
+    "embedding_dim": 64,
+    "input_lengths_control": [
+      256,
+      512,
+      768
+    ],
+    "input_lengths_test": [
+      2048,
+      4096
+    ],
+    "repetitions": 3,
+    "run_order": [
+      {
+        "group": "control",
+        "length": 256,
+        "repetition": 1
+      },
+      {
+        "group": "control",
+        "length": 256,
+        "repetition": 2
+      },
+      {
+        "group": "control",
+        "length": 256,
+        "repetition": 3
+      },
+      {
+        "group": "control",
+        "length": 512,
+        "repetition": 1
+      },
+      {
+        "group": "control",
+        "length": 512,
+        "repetition": 2
+      },
+      {
+        "group": "control",
+        "length": 512,
+        "repetition": 3
+      },
+      {
+        "group": "control",
+        "length": 768,
+        "repetition": 1
+      },
+      {
+        "group": "control",
+        "length": 768,
+        "repetition": 2
+      },
+      {
+        "group": "control",
+        "length": 768,
+        "repetition": 3
+      },
+      {
+        "group": "test",
+        "length": 2048,
+        "repetition": 1
+      },
+      {
+        "group": "test",
+        "length": 2048,
+        "repetition": 2
+      },
+      {
+        "group": "test",
+        "length": 2048,
+        "repetition": 3
+      },
+      {
+        "group": "test",
+        "length": 4096,
+        "repetition": 1
+      },
+      {
+        "group": "test",
+        "length": 4096,
+        "repetition": 2
+      },
+      {
+        "group": "test",
+        "length": 4096,
+        "repetition": 3
+      }
+    ],
+    "synthetic_input_policy": "Deterministic length-only synthetic profiles with fixed run order and no external data."
+  },
+  "witness_id": "W_input"
+}

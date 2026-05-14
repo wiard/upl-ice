@@ -1,0 +1,28 @@
+{
+  "content_hash": "587d7d4ed388e70a6a8d4cdb5bb6d84e7a57d8b8d613aab3d65917f002e472fc",
+  "created_at_utc": "2026-05-14T08:26:11+00:00",
+  "payload": {
+    "M_abs_bytes": 67108864,
+    "R_ratio": 4.0,
+    "condition_id": "C_mem_pressure",
+    "control_statistic": "median_peak_memory_delta_bytes",
+    "description": "Memory-pressure regime C holds when peak memory delta crosses both an absolute and ratio threshold.",
+    "failure_conditions": [
+      "no test length satisfies condition C",
+      "all test lengths abort before meaningful measurement",
+      "controls satisfy condition C"
+    ],
+    "measurement_method": "tracemalloc_and_optional_rusage",
+    "must_hold": [
+      "peak_memory_delta_bytes(length) >= M_abs_bytes",
+      "peak_memory_delta_bytes(length) >= R_ratio * median_peak_memory_delta_bytes(control_lengths)"
+    ],
+    "thresholds_predeclared": true,
+    "validity_constraints": [
+      "thresholds are predeclared",
+      "same runtime and workload function across control and test",
+      "same device class across control and test"
+    ]
+  },
+  "witness_id": "W_contract"
+}

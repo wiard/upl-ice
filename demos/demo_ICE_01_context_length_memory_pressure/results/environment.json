@@ -1,0 +1,15 @@
+{
+  "boundary_sha256": "e3e8c71f3c63a0525b6c639279d048c09ccc710430484e2192b0313928c39dd3",
+  "contract_sha256": "14547b512b86cbf743bfb1fe1d5df6ded7609fce549b5948fd9942b4e29d09c1",
+  "cwd": "/Users/wiardvasen/upl-ice/demos/demo_ICE_01_context_length_memory_pressure",
+  "hostname_redacted_or_anonymized": "host-e6bcea84bdc1",
+  "notes": {
+    "no_external_data": true,
+    "no_network_required": true,
+    "no_training": true
+  },
+  "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "python_version": "3.13.5 (main, Jun 11 2025, 15:36:57) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "runtime": "python-stdlib",
+  "timestamp_utc": "2026-05-14T08:26:11+00:00"
+}

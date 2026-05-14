@@ -1,0 +1,12 @@
+{
+  "condition_id": "C_mem_pressure",
+  "description": "Memory-pressure regime C holds when peak memory delta crosses both an absolute and ratio threshold.",
+  "M_abs_bytes": 67108864,
+  "R_ratio": 4.0,
+  "control_statistic": "median_peak_memory_delta_bytes",
+  "must_hold": [
+    "peak_memory_delta_bytes(length) >= M_abs_bytes",
+    "peak_memory_delta_bytes(length) >= R_ratio * median_peak_memory_delta_bytes(control_lengths)"
+  ],
+  "thresholds_predeclared": true
+}

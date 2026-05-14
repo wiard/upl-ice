@@ -1,0 +1,12 @@
+{
+  "content_hash": "0c87a1133d175cfad3a6189153705b685e0f771c049e3e92243dda188b5aabc6",
+  "created_at_utc": "2026-05-14T08:26:11+00:00",
+  "payload": {
+    "condition_id": "C_mem_pressure",
+    "condition_mapping": "Longer input length increases synthetic score-allocation size and can induce memory-pressure regime C.",
+    "context_length_symbol": "l",
+    "growth_model": "O(l^2)",
+    "shape_logic": "allocation_bytes = batch_size * l * l * bytes_per_score"
+  },
+  "witness_id": "W_map"
+}
