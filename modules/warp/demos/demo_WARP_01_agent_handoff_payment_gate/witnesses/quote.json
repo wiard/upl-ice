@@ -1,0 +1,13 @@
+{
+  "content_hash": "10ce38aa6898c755ce257cdb041c3e8e9d1d313edfbcd75f2f02de81c08421bd",
+  "created_at_utc": "2026-05-14T08:45:13+00:00",
+  "payload": {
+    "amount": 0.2,
+    "currency": "EUR-MOCK",
+    "max_single_payment": 0.25,
+    "max_total_budget": 1.0,
+    "quote_id": "quote_agent_B_001",
+    "within_budget": true
+  },
+  "witness_id": "W_quote"
+}

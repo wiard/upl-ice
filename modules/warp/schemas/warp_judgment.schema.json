@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UPL-WARP Judgment",
+  "type": "object",
+  "required": [
+    "upl_namespace",
+    "profile",
+    "claim_id",
+    "claim",
+    "boundary_id",
+    "judgment_form",
+    "witnesses",
+    "status",
+    "payment_action"
+  ],
+  "properties": {
+    "upl_namespace": { "type": "string" },
+    "profile": { "type": "string" },
+    "claim_id": { "type": "string" },
+    "claim": { "type": "string" },
+    "boundary_id": { "type": "string" },
+    "judgment_form": { "type": "string" },
+    "witnesses": { "type": "object" },
+    "status": { "type": "string" },
+    "payment_action": { "type": "string" },
+    "allowed_claims": { "type": "array", "items": { "type": "string" } },
+    "forbidden_claims": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,11 @@
+{
+  "mandate_id": "mandate_demo_WARP_01",
+  "user_id": "local_demo_user",
+  "task": "Delegate one bounded analysis subtask to agent_B.",
+  "allowed_task_type": "bounded_analysis",
+  "budget_limit": 1.0,
+  "single_payment_limit": 0.25,
+  "payment_mode": "mock_ledger_only",
+  "expires": "local_demo_no_real_expiry",
+  "signature": "mock_signature_not_cryptographic"
+}

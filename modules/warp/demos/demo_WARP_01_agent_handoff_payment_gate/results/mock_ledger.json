@@ -1,0 +1,15 @@
+{
+  "entries": [
+    {
+      "amount": 0.2,
+      "currency": "EUR-MOCK",
+      "entry_id": "ledger_demo_001",
+      "from": "local_demo_user_mock_balance",
+      "linked_judgment": "results/judgment.json",
+      "payment_action": "released",
+      "to": "agent_B_mock_balance"
+    }
+  ],
+  "ledger_type": "mock_only",
+  "real_payment": false
+}

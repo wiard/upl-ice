@@ -1,0 +1,13 @@
+{
+  "content_hash": "32cc55126a5281a8f834051c1878c0b3c655801d97b36a6fee217e2e88739453",
+  "created_at_utc": "2026-05-14T08:45:13+00:00",
+  "payload": {
+    "allowed_task_type": "bounded_analysis",
+    "budget_limit": 1.0,
+    "mandate_id": "mandate_demo_WARP_01",
+    "payment_mode": "mock_ledger_only",
+    "signature": "mock_signature_not_cryptographic",
+    "single_payment_limit": 0.25
+  },
+  "witness_id": "W_mandate"
+}

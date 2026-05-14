@@ -1,0 +1,21 @@
+{
+  "agents": [
+    {
+      "agent_id": "agent_A",
+      "role": "orchestrator",
+      "allowed_to_delegate": true,
+      "allowed_to_receive_payment": false
+    },
+    {
+      "agent_id": "agent_B",
+      "role": "bounded_analysis_specialist",
+      "capabilities": ["bounded_analysis"],
+      "price_quote": {
+        "amount": 0.2,
+        "currency": "EUR-MOCK",
+        "quote_id": "quote_agent_B_001"
+      },
+      "allowed_to_receive_payment": true
+    }
+  ]
+}

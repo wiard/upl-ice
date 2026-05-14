@@ -1,0 +1,19 @@
+{
+  "boundary_id": "B_demo_WARP_01",
+  "boundary_type": "local_mock_agent_handoff_payment",
+  "runtime": "python-stdlib",
+  "network_access": "forbidden",
+  "real_payment": false,
+  "currency": "EUR-MOCK",
+  "payment_mode": "mock_ledger_only",
+  "max_total_budget": 1.0,
+  "max_single_payment": 0.25,
+  "allowed_agents": ["agent_A", "agent_B"],
+  "allowed_task_types": ["bounded_summary", "bounded_classification", "bounded_analysis"],
+  "forbidden_task_types": ["external_attack", "credential_access", "unbounded_spend", "real_payment", "network_scan"],
+  "require_user_mandate": true,
+  "require_price_quote": true,
+  "require_result_check": true,
+  "require_trace_completeness": true,
+  "human_approval_required_above": 0.25
+}

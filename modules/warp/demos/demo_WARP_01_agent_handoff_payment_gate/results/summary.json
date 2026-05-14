@@ -1,0 +1,10 @@
+{
+  "claim_id": "K_agent_handoff_payment_release",
+  "from_agent": "agent_A",
+  "payment_action": "mock_payment_release_allowed",
+  "quote_amount": 0.2,
+  "quote_currency": "EUR-MOCK",
+  "status": "checked",
+  "task_type": "bounded_analysis",
+  "to_agent": "agent_B"
+}

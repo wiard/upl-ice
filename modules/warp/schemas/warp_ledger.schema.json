@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UPL-WARP Mock Ledger",
+  "type": "object",
+  "required": ["ledger_type", "real_payment", "entries"],
+  "properties": {
+    "ledger_type": { "type": "string" },
+    "real_payment": { "type": "boolean" },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "entry_id",
+          "from",
+          "to",
+          "amount",
+          "currency",
+          "payment_action",
+          "linked_judgment"
+        ]
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,33 @@
+{
+  "policy_id": "Gamma_WARP-P1",
+  "rules": [
+    {
+      "rule_id": "R1_mandate_required",
+      "description": "A valid user mandate must be present."
+    },
+    {
+      "rule_id": "R2_budget_limit",
+      "description": "The quoted cost must not exceed max_single_payment or max_total_budget."
+    },
+    {
+      "rule_id": "R3_allowed_agent",
+      "description": "The receiving agent must be listed in allowed_agents."
+    },
+    {
+      "rule_id": "R4_allowed_task",
+      "description": "The delegated task type must be allowed and not forbidden."
+    },
+    {
+      "rule_id": "R5_result_required",
+      "description": "A bounded result must be returned before mock payment release."
+    },
+    {
+      "rule_id": "R6_trace_required",
+      "description": "All required witnesses must be present before payment release."
+    },
+    {
+      "rule_id": "R7_mock_only",
+      "description": "Only mock ledger entries are allowed. Real payments are out of scope."
+    }
+  ]
+}

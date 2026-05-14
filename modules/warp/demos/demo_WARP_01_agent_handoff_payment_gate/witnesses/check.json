@@ -1,0 +1,39 @@
+{
+  "content_hash": "b51a0864c47079c464ebf0f5749a4a7ec2e8176c6da7390322f17734965d249b",
+  "created_at_utc": "2026-05-14T08:45:13+00:00",
+  "payload": {
+    "policy_id": "Gamma_WARP-P1",
+    "result_text": "This is a bounded local demo result produced by agent_B.",
+    "rules": [
+      {
+        "pass": true,
+        "rule_id": "R1_mandate_required"
+      },
+      {
+        "pass": true,
+        "rule_id": "R2_budget_limit"
+      },
+      {
+        "pass": true,
+        "rule_id": "R3_allowed_agent"
+      },
+      {
+        "pass": true,
+        "rule_id": "R4_allowed_task"
+      },
+      {
+        "pass": true,
+        "rule_id": "R5_result_required"
+      },
+      {
+        "pass": true,
+        "rule_id": "R6_trace_required"
+      },
+      {
+        "pass": true,
+        "rule_id": "R7_mock_only"
+      }
+    ]
+  },
+  "witness_id": "W_check"
+}

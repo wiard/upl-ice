@@ -1,0 +1,20 @@
+{
+  "content_hash": "d7d05fe61902c4a11deef99bf98fa6e5e72fccbae464333b2ff0ca695ea04b46",
+  "created_at_utc": "2026-05-14T08:45:13+00:00",
+  "payload": {
+    "forbidden_actions": [
+      "external_attack",
+      "credential_access",
+      "unbounded_spend",
+      "real_payment",
+      "network_scan"
+    ],
+    "payment_release_condition": "status == checked",
+    "required_output_type": "short_text",
+    "result_constraints": {
+      "max_characters": 300,
+      "must_be_present": true
+    }
+  },
+  "witness_id": "W_contract"
+}

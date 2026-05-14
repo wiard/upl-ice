@@ -1,0 +1,14 @@
+{
+  "content_hash": "4901a75c90c4bdb5d9d5a2ef96ba5b18ecb8d2604c8aa2453d872101a27bc271",
+  "created_at_utc": "2026-05-14T08:45:13+00:00",
+  "payload": {
+    "no_credentials": true,
+    "no_forbidden_task": true,
+    "no_missing_result": true,
+    "no_network": true,
+    "no_over_budget_quote": true,
+    "no_real_payment": true,
+    "no_unapproved_agent": true
+  },
+  "witness_id": "W_ruleout"
+}

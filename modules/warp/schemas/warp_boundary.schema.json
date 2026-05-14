@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UPL-WARP Boundary",
+  "type": "object",
+  "required": [
+    "boundary_id",
+    "boundary_type",
+    "runtime",
+    "network_access",
+    "real_payment",
+    "currency",
+    "payment_mode",
+    "max_total_budget",
+    "max_single_payment",
+    "allowed_agents",
+    "allowed_task_types",
+    "forbidden_task_types"
+  ],
+  "properties": {
+    "boundary_id": { "type": "string" },
+    "boundary_type": { "type": "string" },
+    "runtime": { "type": "string" },
+    "network_access": { "type": "string" },
+    "real_payment": { "type": "boolean" },
+    "currency": { "type": "string" },
+    "payment_mode": { "type": "string" },
+    "max_total_budget": { "type": "number", "minimum": 0 },
+    "max_single_payment": { "type": "number", "minimum": 0 },
+    "allowed_agents": { "type": "array", "items": { "type": "string" } },
+    "allowed_task_types": { "type": "array", "items": { "type": "string" } },
+    "forbidden_task_types": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

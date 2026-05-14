@@ -1,0 +1,31 @@
+{
+  "allowed_claims": [
+    "agent_A may delegate the bounded local task to agent_B under B",
+    "mock payment may be released if status is checked",
+    "the run produced a warranted local mock ledger event"
+  ],
+  "boundary_id": "B_demo_WARP_01",
+  "claim": "Agent A may delegate bounded task S to Agent B and release mock payment P only if mandate, budget, policy, quote, result, and trace conditions are checked under boundary B.",
+  "claim_id": "K_agent_handoff_payment_release",
+  "forbidden_claims": [
+    "real payment was made",
+    "agent_B is generally trustworthy",
+    "the user authorized future payments",
+    "the result is legally or financially valid",
+    "the claim generalizes beyond B",
+    "UPL-WARP is a payment processor"
+  ],
+  "judgment_form": "Gamma_WARP-P1 \u22a2 K_agent_handoff_payment_release @ B_demo_WARP_01 \u21d0 W_demo_WARP_01 : sigma",
+  "payment_action": "mock_payment_release_allowed",
+  "profile": "WARP-P1",
+  "status": "checked",
+  "upl_namespace": "UPL-WARP",
+  "witnesses": {
+    "check": "witnesses/check.json",
+    "contract": "witnesses/contract.json",
+    "mandate": "witnesses/mandate.json",
+    "quote": "witnesses/quote.json",
+    "route": "witnesses/route.json",
+    "ruleout": "witnesses/ruleout.json"
+  }
+}

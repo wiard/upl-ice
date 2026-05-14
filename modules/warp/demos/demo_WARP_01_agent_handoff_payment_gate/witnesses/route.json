@@ -1,0 +1,25 @@
+{
+  "content_hash": "22fa5c9ed8746132dce96e4dc4365da42150b98b7787243069b334325f17e90e",
+  "created_at_utc": "2026-05-14T08:45:13+00:00",
+  "payload": {
+    "agent_registry_entry": {
+      "agent_id": "agent_B",
+      "allowed_to_receive_payment": true,
+      "capabilities": [
+        "bounded_analysis"
+      ],
+      "price_quote": {
+        "amount": 0.2,
+        "currency": "EUR-MOCK",
+        "quote_id": "quote_agent_B_001"
+      },
+      "role": "bounded_analysis_specialist"
+    },
+    "allowed_to_delegate": true,
+    "capability_match": true,
+    "from_agent": "agent_A",
+    "task_type": "bounded_analysis",
+    "to_agent": "agent_B"
+  },
+  "witness_id": "W_route"
+}

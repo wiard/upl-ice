@@ -1,0 +1,7 @@
+demo_WARP_01 start
+status=checked
+payment_action=mock_payment_release_allowed
+agent_ok=True
+capability_ok=True
+quote_ok=True
+result_ok=True
