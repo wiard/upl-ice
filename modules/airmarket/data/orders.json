@@ -1,0 +1,25 @@
+{
+  "orders": [
+    {
+      "accepted_price": {
+        "amount": 0.12,
+        "currency": "EUR"
+      },
+      "buyer_avatar": "agent_A",
+      "order_id": "order_001",
+      "proofpack": {
+        "output": {
+          "content_digest": "digest_order_001",
+          "format": "markdown",
+          "word_count": 87
+        },
+        "proofpack_id": "proofpack_order_001",
+        "result_declared_complete": true
+      },
+      "seller_avatar": "agent_B",
+      "status": "delivered",
+      "task_id": "task_order_001",
+      "workcard_id": "workcard_summary_001"
+    }
+  ]
+}

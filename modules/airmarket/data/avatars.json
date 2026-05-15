@@ -1,0 +1,29 @@
+{
+  "avatars": [
+    {
+      "avatar_id": "agent_A",
+      "display_name": "Avatar A",
+      "role": "buyer"
+    },
+    {
+      "avatar_id": "agent_B",
+      "display_name": "Avatar B",
+      "role": "seller"
+    }
+  ],
+  "mandate_links": [
+    {
+      "allowed_workcard_ids": [
+        "workcard_summary_001"
+      ],
+      "buyer_avatar": "agent_A",
+      "link_id": "mandatelink_agent_A_agent_B_001",
+      "max_price": {
+        "amount": 0.2,
+        "currency": "EUR"
+      },
+      "seller_avatar": "agent_B",
+      "status": "active"
+    }
+  ]
+}

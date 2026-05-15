@@ -1,0 +1,18 @@
+{
+  "workcards": [
+    {
+      "output_contract": {
+        "format": "markdown",
+        "max_words": 120
+      },
+      "price": {
+        "amount": 0.12,
+        "currency": "EUR"
+      },
+      "seller_avatar": "agent_B",
+      "task_type": "document_summary",
+      "title": "Bounded summary work",
+      "workcard_id": "workcard_summary_001"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "action": "mock_payment_release_allowed",
+  "app": "AirMarket",
+  "boundary": {
+    "buyer_avatar": "agent_A",
+    "order_id": "order_001",
+    "output_contract": {
+      "format": "markdown",
+      "max_words": 120
+    },
+    "price": {
+      "amount": 0.12,
+      "currency": "EUR"
+    },
+    "seller_avatar": "agent_B",
+    "task_id": "task_order_001",
+    "workcard_id": "workcard_summary_001"
+  },
+  "claim": "agent_B_completed_task_order_001",
+  "non_claims": [
+    "No real payment was executed.",
+    "AirMarket does not claim legal finality.",
+    "AirMarket does not claim settlement finality."
+  ],
+  "receipt_id": "claimreceipt_order_001",
+  "status": "checked",
+  "witnesses": {
+    "buyer_avatar": {
+      "ref": "agent_A",
+      "state": "present"
+    },
+    "check": {
+      "ref": "delivery_check_v0_1",
+      "state": "present"
+    },
+    "mandate_link": {
+      "ref": "mandatelink_agent_A_agent_B_001",
+      "state": "present"
+    },
+    "order": {
+      "ref": "order_001",
+      "state": "present"
+    },
+    "proofpack": {
+      "ref": "proofpack_order_001",
+      "state": "present"
+    },
+    "seller_avatar": {
+      "ref": "agent_B",
+      "state": "present"
+    },
+    "trace": {
+      "ref": "pact_log",
+      "state": "present"
+    },
+    "workcard": {
+      "ref": "workcard_summary_001",
+      "state": "present"
+    }
+  }
+}
