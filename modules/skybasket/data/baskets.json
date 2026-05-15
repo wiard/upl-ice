@@ -1,0 +1,59 @@
+{
+  "baskets": [
+    {
+      "basket_id": "basket_001",
+      "buyer_avatar": "buyer_agent",
+      "buyer_mandate": {
+        "allowed_sellers": [
+          "summary_agent",
+          "clause_agent"
+        ],
+        "allowed_task_types": [
+          "document_summary",
+          "clause_extraction"
+        ],
+        "max_total_price": {
+          "amount": 0.4,
+          "currency": "EUR"
+        },
+        "principal_avatar": "vasen_vof",
+        "required_principal_depth": 1
+      },
+      "items": [
+        {
+          "proofpack": {
+            "output": {
+              "content_digest": "digest_summary_001",
+              "format": "markdown",
+              "word_count": 87
+            },
+            "proofpack_id": "proofpack_workcard_summary_001",
+            "result_declared_complete": true
+          },
+          "seller_avatar": "summary_agent",
+          "task_id": "task_summary_001",
+          "workcard_id": "workcard_summary_001"
+        },
+        {
+          "proofpack": {
+            "output": {
+              "content_digest": "digest_clause_001",
+              "format": "json",
+              "payload": {
+                "clause_id": "clause_001",
+                "risk_label": "low",
+                "summary": "Payment term summarized."
+              }
+            },
+            "proofpack_id": "proofpack_workcard_clause_001",
+            "result_declared_complete": true
+          },
+          "seller_avatar": "clause_agent",
+          "task_id": "task_clause_001",
+          "workcard_id": "workcard_clause_001"
+        }
+      ],
+      "status": "delivered"
+    }
+  ]
+}

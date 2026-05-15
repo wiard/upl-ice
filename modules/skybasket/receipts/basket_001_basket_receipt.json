@@ -1,0 +1,30 @@
+{
+  "application": "SkyBasket",
+  "basket_action": "mock_basket_payment_release_allowed",
+  "basket_id": "basket_001",
+  "basket_judgment": {
+    "aggregation_rule": "all_items_checked",
+    "claim": "basket_001_delivered_under_terms",
+    "status": "checked"
+  },
+  "basket_status": "checked",
+  "item_judgments": [
+    {
+      "claim": "workcard_summary_001_delivered_under_terms",
+      "status": "checked",
+      "workcard_id": "workcard_summary_001"
+    },
+    {
+      "claim": "workcard_clause_001_delivered_under_terms",
+      "status": "checked",
+      "workcard_id": "workcard_clause_001"
+    }
+  ],
+  "market_event": "atomic_basket_checkout",
+  "non_claims": [
+    "No real payment was executed.",
+    "This application-demo does not claim real-world settlement atomicity.",
+    "This application-demo only adjudicates a bounded local basket checkout."
+  ],
+  "real_payment_executed": false
+}

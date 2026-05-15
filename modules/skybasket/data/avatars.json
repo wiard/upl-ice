@@ -1,0 +1,66 @@
+{
+  "avatars": [
+    {
+      "avatar_id": "buyer_agent",
+      "namespace": "airmarket",
+      "role": "buyer",
+      "world": "agentic_marketplace"
+    },
+    {
+      "avatar_id": "summary_agent",
+      "namespace": "airmarket",
+      "role": "seller",
+      "world": "agentic_marketplace"
+    },
+    {
+      "avatar_id": "clause_agent",
+      "namespace": "airmarket",
+      "role": "seller",
+      "world": "agentic_marketplace"
+    },
+    {
+      "avatar_id": "vasen_vof",
+      "namespace": "kvk",
+      "role": "principal",
+      "world": "nl_business_registry"
+    }
+  ],
+  "mandate_links": [
+    {
+      "link_id": "mandatelink_buyer_vasen_001",
+      "principal": {
+        "avatar": "vasen_vof",
+        "namespace": "kvk",
+        "world": "nl_business_registry"
+      },
+      "principal_depth": 1,
+      "source_avatar": "buyer_agent",
+      "status": "active",
+      "target_avatar": "vasen_vof"
+    },
+    {
+      "link_id": "mandatelink_summary_vasen_001",
+      "principal": {
+        "avatar": "vasen_vof",
+        "namespace": "kvk",
+        "world": "nl_business_registry"
+      },
+      "principal_depth": 1,
+      "source_avatar": "summary_agent",
+      "status": "active",
+      "target_avatar": "vasen_vof"
+    },
+    {
+      "link_id": "mandatelink_clause_vasen_001",
+      "principal": {
+        "avatar": "vasen_vof",
+        "namespace": "kvk",
+        "world": "nl_business_registry"
+      },
+      "principal_depth": 1,
+      "source_avatar": "clause_agent",
+      "status": "active",
+      "target_avatar": "vasen_vof"
+    }
+  ]
+}

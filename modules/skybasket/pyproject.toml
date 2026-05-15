@@ -1,0 +1,9 @@
+[project]
+name = "skybasket"
+version = "0.1.0"
+description = "SkyBasket atomic basket checkout for warrant-gated avatar work"
+requires-python = ">=3.10"
+
+[build-system]
+requires = []
+build-backend = "setuptools.build_meta"
